@@ -1,0 +1,13 @@
+prefix=D:/vs_code/Python-learn/ManiLLM/venv/Library
+exec_prefix=D:/vs_code/Python-learn/ManiLLM/venv/Library
+libdir=D:/vs_code/Python-learn/ManiLLM/venv/Library/lib
+sharedlibdir=D:/vs_code/Python-learn/ManiLLM/venv/Library/lib
+includedir=D:/vs_code/Python-learn/ManiLLM/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
